@@ -30,4 +30,10 @@ return {
       require("nvim-treesitter.configs").setup(opts)
     end,
   },
+  {
+    "ccaglak/larago.nvim",
+    dependencies = {
+      "nvim-lua/plenary.nvim",
+    },
+  },
 }
