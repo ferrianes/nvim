@@ -3,14 +3,8 @@ return {
     "olimorris/onedarkpro.nvim",
     opts = {
       options = {
-        transparency = true,
+        transparency = false,
       },
-    },
-  },
-  {
-    "LazyVim/LazyVim",
-    opts = {
-      colorscheme = "onedark",
     },
   },
 }
